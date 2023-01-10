@@ -1,0 +1,8 @@
+graph LR
+  x[Types of Software Testing] 
+
+--> A[Manual] & B[Automation]
+A --> C[White Box Testing] & D[Black Box Testing] & E[Gray Box Testing]
+D ----> G[Functional] & H(Non-Functional)
+G ----> J[Unit Testing] & K[Integration Testing] & L[System Testing] & M[User Acceptance Testing]
+H ----> N[Compatitbility Testing] & O[Performance Testing] & P[Usability Testing]
